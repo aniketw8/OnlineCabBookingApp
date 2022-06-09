@@ -71,17 +71,19 @@ public class CustomerController {
 		return customerService.updateCustomer(customer, mobile, key);
 	}
 
-	@GetMapping("/availableCabs")
+	@GetMapping("/availablecabs")
 	public List<Driver> availableDrivers() {
 
 		return customerService.getAvailableDrivers();
 
 	}
 
+
 	@GetMapping("/allcabs")
 	public List<Driver> getListForAll() {
 		return customerService.generalListOfDrivers();
 	}
+
 
 	@PostMapping("/booktrip")
 	public ResponseEntity<TripBooking> bookTrip(@RequestBody TripBooking trip, @RequestParam String key) {
@@ -97,12 +99,11 @@ public class CustomerController {
 	public String logoutCustomer(@RequestParam String key) {
 
 		return customerService.logoutCustomer(key);
-
 	}
 	
-//	@DeleteMapping("/tripcompleted")
-//	public String tripComplete(@RequestParam String key) {
-//		
-//	}
+	@DeleteMapping("/complete/{tripid}")
+	public String completeTrip(@RequestParam String key, @PathVariable("tripid") Integer tripId ) {
+	return customerService.completeTrip(key, tripId);	
+	}
 
 }
