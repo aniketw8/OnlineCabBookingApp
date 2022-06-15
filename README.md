@@ -10,9 +10,9 @@
 **Additonal:** Spring Data JPA, Swagger-UI
 
 <h2>End Points Of The Application</h2>
-    <img src="https://miro.medium.com/max/1400/1*mxz3fl1CnWiR_9L76jAjkQ.png" alt="">
-      <img src="https://miro.medium.com/max/1400/1*SJmQN8Q0nYctKzJ0wANABA.png" alt="">
-      <img src="https://miro.medium.com/max/1400/1*b4aRrIJ7vnxEC3rtBY3aSQ.png" alt="">
+    <img src="https://miro.medium.com/max/1400/1*mxz3fl1CnWiR_9L76jAjkQ.png" alt=""><br>
+      <img src="https://miro.medium.com/max/1400/1*SJmQN8Q0nYctKzJ0wANABA.png" alt=""><br>
+      <img src="https://miro.medium.com/max/1400/1*b4aRrIJ7vnxEC3rtBY3aSQ.png" alt=""><br>
 
 ## Authors
 
